@@ -4,7 +4,7 @@ const contact: ContactSectionContentProps = {
   email: 'nodhzen@gmail.com',
   socials: {
     facebook: 'https://www.facebook.com/iNoozura',
-    twitter: 'https://twitter.com/iNoozura_',
+    twitter: 'https://twitter.com/iNoozura',
     instagram: 'https://instagram.com/inozura',
   },
 };
