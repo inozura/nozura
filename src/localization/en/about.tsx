@@ -5,7 +5,7 @@ import { AboutSectionContentProps } from 'components/organisms/About/types';
 const Text = () => (
   <>
     I’m currently working as a freelance{' '}
-    <span className="font-bold text-gray-800">fullstack developer</span> and{' '}
+    <span className="font-bold text-gray-800">full-stack developer</span> and{' '}
     <span className="font-bold text-gray-800">mobile app developer</span>. I enjoy building web apps using
     <HighlightedTextIcon
       as="a"
