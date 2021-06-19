@@ -17,7 +17,7 @@ export default function HighlightedText({
     );
   }
   return (
-    <a href={href} className={classes}>
+    <a href={href} className={classes} rel="noopener noreferrer" target="_blank">
       {children}
     </a>
   );

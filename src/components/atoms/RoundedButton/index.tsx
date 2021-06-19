@@ -17,7 +17,7 @@ export default function RoundedButton({ children, as = 'button', href = '', clas
 
   if (as === 'button') {
     return (
-      <motion.button whileHover={{ translateY: 10 }} whileTap={{ scale: 0.8 }} className={classes}>
+      <motion.button whileHover={{ translateY: 10 }} whileTap={{ scale: 0.8 }} className={classes} >
         {children}
       </motion.button>
     );
@@ -29,6 +29,7 @@ export default function RoundedButton({ children, as = 'button', href = '', clas
       whileHover={{ translateY: 10 }}
       whileTap={{ scale: 0.8 }}
       className={classes}
+      target="_blank" rel="noopener noreferrer"
     >
       {children}
     </motion.a>

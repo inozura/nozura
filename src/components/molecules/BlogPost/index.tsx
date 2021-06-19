@@ -15,7 +15,7 @@ export default function BlogPost({ data, className }: BlogsProps) {
 
   return (
     <article className={classNames(className, 'focus-within:ring-2 ring-indigo-500 ring-offset-8 rounded-lg')}>
-      <a href={url} className="relative inline-block rounded-lg group focus:outline-none">
+      <a href={url} className="relative inline-block rounded-lg group focus:outline-none" target="_blank" rel="noopener noreferrer">
         <ContentTitle>{title}</ContentTitle>
         <svg className="-left-1 bottom-0.5 -z-10 absolute w-0 h-2 text-indigo-200 transition-all group-focus:w-full-2 group-hover:w-full-2" fill="currentColor">
           <rect width="100%" height="100%" rx={4} ry={4}></rect>

@@ -8,15 +8,27 @@ const projects: ProjectCardDataProps[] = [
     url: 'https://github.com/inozura/grids-styled-components',
   },
   {
-    title: 'bookstore-prototype',
-    description:
-      'Prototype bookstore mobile application using React Native framework.',
+    title: 'Whatnime',
+    description: 'Website can predict anime that just using screenshot of anime scene.',
     type: 'github',
-    url: 'https://github.com/inozura/bookstore-prototype',
+    url: 'https://github.com/inozura/whatnime/',
   },
   {
-    title: 'auto-tulis',
-    description: 'Simple website can convert typing to canvas.',
+    title: 'Whatnime Mobile',
+    description: 'Mobile application can show and search airing anime',
+    type: 'github',
+    url: 'https://github.com/inozura/whatnime-mobile/',
+  },
+  // {
+  //   title: 'bookstore-prototype',
+  //   description:
+  //     'Prototype bookstore mobile application using React Native framework.',
+  //   type: 'github',
+  //   url: 'https://github.com/inozura/bookstore-prototype',
+  // },
+  {
+    title: 'SPK_Nextron',
+    description: 'Cross-Platform Desktop application build form ElectronJS, use to guess value using MOORA method',
     type: 'github',
     url: 'https://github.com/inozura/auto-tulis',
   },
@@ -31,12 +43,6 @@ const projects: ProjectCardDataProps[] = [
     description: 'Simple blog using NuxtJS and the content using markdown.',
     type: 'github',
     url: 'https://github.com/inozura/markdown-nuxt-blog',
-  },
-  {
-    title: 'Whatnime',
-    description: 'Website can predict anime that just using screenshot of anime scene.',
-    type: 'website',
-    url: 'https://whatnime.netlify.app/',
   },
 ];
 

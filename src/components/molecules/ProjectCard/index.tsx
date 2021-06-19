@@ -21,7 +21,7 @@ export default function ProjectCard({ data, className }: ProjectCardProps) {
         ) : (
           <Icons.Github className="w-7 h-7" />
         )}
-        <a className="font-medium text-indigo-400 rounded-lg hover:text-indigo-500 focus:outline-none focus:ring-2 ring-indigo-500 ring-offset-2 focus:text-indigo-500" href={url}>
+        <a className="font-medium text-indigo-400 rounded-lg hover:text-indigo-500 focus:outline-none focus:ring-2 ring-indigo-500 ring-offset-2 focus:text-indigo-500" href={url} target="_blank" rel="noopener noreferrer">
           {language.value === 'en' ? 'Details' : 'Lihat'}
         </a>
       </div>
