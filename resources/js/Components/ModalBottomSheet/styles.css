@@ -1,0 +1,8 @@
+[data-rsbs-overlay], [data-rsbs-backdrop], [data-rsbs-root]:after {
+    z-index: 50;
+}
+
+[data-rsbs-overlay], [data-rsbs-root]:after {
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
+}
