@@ -1,30 +1,43 @@
-import React from 'react';
-import { Icon } from '@iconify/react';
-import javascriptIcon from '@iconify/icons-logos/javascript';
-import typescriptIcon from '@iconify/icons-logos/typescript-icon';
-import { HighlightedTextIcon } from 'components/molecules';
+import React from "react";
+import { Icon } from "@iconify/react";
+import javascriptIcon from "@iconify/icons-logos/javascript";
+import typescriptIcon from "@iconify/icons-logos/typescript-icon";
+import dartIcon from "@iconify/icons-logos/dart";
+import { HighlightedTextIcon } from "components/molecules";
 
 const Text = () => (
   <>
-    Saya sudah berpengalaman selama satu tahun mendalami{' '}
-    <span className="font-bold text-gray-800">pengembangan web dan mobile</span> menggunakan{' '}
+    Saya sudah berpengalaman selama tiga tahun mendalami{" "}
+    <span className="font-bold text-gray-800">
+      pengembangan web, mobile, dan desktop
+    </span>{" "}
+    menggunakan{" "}
     <HighlightedTextIcon
       className="mx-2"
-      icon={<Icon icon={javascriptIcon} style={{ fontSize: '24px' }} />}
+      icon={<Icon icon={javascriptIcon} style={{ fontSize: "24px" }} />}
       as="a"
       href="https://www.javascript.com/"
     >
       Javascript
-    </HighlightedTextIcon>{' '}
-    dan{' '}
+    </HighlightedTextIcon>
+    {", "}
     <HighlightedTextIcon
       as="a"
       href="https://www.typescriptlang.org/"
       className="mx-2"
-      icon={<Icon icon={typescriptIcon} style={{ fontSize: '24px' }} />}
+      icon={<Icon icon={typescriptIcon} style={{ fontSize: "24px" }} />}
     >
       Typescript
-    </HighlightedTextIcon>{' '}
+    </HighlightedTextIcon>{" "}
+    dan{" "}
+    <HighlightedTextIcon
+      className="mx-2"
+      icon={<Icon icon={dartIcon} style={{ fontSize: "24px" }} />}
+      as="a"
+      href="https://dart.dev/"
+    >
+      Dart
+    </HighlightedTextIcon>{" "}
     hingga saya cukup percaya diri untuk membangun aplikasi menggunakan:
   </>
 );

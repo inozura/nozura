@@ -15,28 +15,40 @@ const projects: ProjectCardDataProps[] = [
   },
   {
     title: 'Whatnime Mobile',
-    description: 'Mobile application can show and search airing anime',
+    description: 'Mobile application can show and search airing anime.',
     type: 'github',
     url: 'https://github.com/inozura/whatnime-mobile/',
   },
-  // {
-  //   title: 'bookstore-prototype',
-  //   description:
-  //     'Prototype bookstore mobile application using React Native framework.',
-  //   type: 'github',
-  //   url: 'https://github.com/inozura/bookstore-prototype',
-  // },
   {
-    title: 'SPK_Nextron',
-    description: 'Cross-Platform Desktop application build form ElectronJS, use to guess value using MOORA method',
+    title: 'React Windows XP',
+    description: 'Web based interface Windows XP build with React JS and styled-components',
+    type: 'website',
+    url: 'https://react-win-xp.vercel.app/',
+  },
+  {
+    title: 'covid-checker',
+    description:
+      'A mobile application build with Flutter framework use for check diagnosis Covid 19.',
     type: 'github',
-    url: 'https://github.com/inozura/auto-tulis',
+    url: 'https://github.com/inozura/covid-checker',
+  },
+  {
+    title: 'nextron-spk',
+    description: 'Cross-Platform Desktop application build with ElectronJS, use for guess final prediction using MOORA method',
+    type: 'github',
+    url: 'https://github.com/inozura/nextron-spk',
+  },
+  {
+    title: 'retron-vpn',
+    description: 'Cross-Platform Desktop application build with ElectronJS and React, complete frontend VPN app',
+    type: 'github',
+    url: 'https://github.com/inozura/retron-vpn',
   },
   {
     title: 'forecasting-flutter',
     description: 'The magic application that can guess selling over week using forecasting method.',
     type: 'github',
-    url: 'https://github.com/inozura/forecasting-flutter_app',
+    url: 'https://github.com/inozura/forecasting-app',
   },
   {
     title: 'markdown-nuxt-blog',

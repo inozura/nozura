@@ -1,10 +1,10 @@
-import Animated from 'components/animations';
-import { Avatar, HeaderText } from 'components/atoms';
-import Decorations from 'components/decorations';
-import { TextIconButton } from 'components/molecules';
-import HeaderProps from 'components/organisms/Header/types';
-import { LanguageContext } from 'contexts';
-import React, { useContext } from 'react';
+import Animated from "components/animations";
+import { Avatar, HeaderText } from "components/atoms";
+import Decorations from "components/decorations";
+import { TextIconButton } from "components/molecules";
+import HeaderProps from "components/organisms/Header/types";
+import { LanguageContext } from "contexts";
+import React, { useContext } from "react";
 
 export default function Header({ data, text, lowerSectionRef }: HeaderProps) {
   const languange = useContext(LanguageContext);
@@ -24,8 +24,18 @@ export default function Header({ data, text, lowerSectionRef }: HeaderProps) {
           >
             <Decorations.Stripes className="w-24 h-24 text-indigo-300 md:w-40 md:h-40" />
           </Animated.FromDirection>
-          <Animated.FromDirection from="right" custom={1} delay={0.3} duration={0.8}>
-            <Animated.Reveal from="right" className="rounded-3xl" delay={0.8} duration={1.2}>
+          <Animated.FromDirection
+            from="right"
+            custom={1}
+            delay={0.3}
+            duration={0.8}
+          >
+            <Animated.Reveal
+              from="right"
+              className="rounded-3xl"
+              delay={0.8}
+              duration={1.2}
+            >
               <Avatar src={profilePicture} alt="Profile Picture" />
             </Animated.Reveal>
           </Animated.FromDirection>
@@ -35,11 +45,16 @@ export default function Header({ data, text, lowerSectionRef }: HeaderProps) {
           <Animated.Letter text={`${intro} ${name}`} custom={2} delay={0.3} />
           <div className="relative inline-flex">
             <Animated.Letter
-              text={`${preTitle ? `${preTitle} ` : ''}${job}`}
+              text={`${preTitle ? `${preTitle} ` : ""}${job}`}
               custom={4}
               delay={0.3}
             />
-            <Animated.Highlighter className="h-3 bottom-1.5" rad={6} custom={8} delay={0.3} />
+            <Animated.Highlighter
+              className="h-3 bottom-1.5"
+              rad={6}
+              custom={8}
+              delay={0.3}
+            />
           </div>
         </HeaderText>
         <Animated.FromDirection
@@ -50,8 +65,10 @@ export default function Header({ data, text, lowerSectionRef }: HeaderProps) {
         >
           <TextIconButton
             className="group"
-            onClick={() => lowerSectionRef?.current?.scrollIntoView({ behavior: 'smooth' })}
-            text={languange.value === 'en' ? 'Scroll down' : 'Scroll ke bawah'}
+            onClick={() =>
+              lowerSectionRef?.current?.scrollIntoView({ behavior: "smooth" })
+            }
+            text={languange.value === "en" ? "Scroll down" : "Scroll ke bawah"}
             icon={
               <svg
                 className="transition-all transform group-hover:translate-y-1"
