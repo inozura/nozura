@@ -2,7 +2,7 @@
   "name": "nozura-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://inozura.github.io/my",
+  "homepage": "https://inozura.github.io/-",
   "dependencies": {
     "@headlessui/react": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.4",
