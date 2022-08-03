@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import reactIcon from "@iconify/icons-logos/react";
-import bootstrapIcon from "@iconify/icons-logos/bootstrap";
+// import bootstrapIcon from "@iconify/icons-logos/bootstrap";
 import flutterIcon from "@iconify/icons-logos/flutter";
 import expressjsIcon from "@iconify/icons-logos/express";
 import expoIcon from "@iconify/icons-logos/expo";
