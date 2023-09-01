@@ -27,7 +27,7 @@
   "scripts": {
     "watch:style": "postcss ./src/assets/css/styles.css -o ./src/assets/css/app.css -w",
     "build:style": "postcss ./src/assets/css/styles.css -o ./src/assets/css/app.css --env production",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "dev": "concurrently \"yarn watch:style\" \"yarn start\"",
     "build": "yarn build:style && react-scripts build",
     "test": "react-scripts test",
