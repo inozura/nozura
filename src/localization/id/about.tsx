@@ -7,13 +7,13 @@ import electronIcon from "@iconify/icons-logos/electron";
 
 const Text = () => (
   <>
-    Saat ini saya sedang bekerja sebagai freelance{" "}
-    <span className="font-bold text-gray-800">Software developer</span>, saya
-    gemar menggunakan
+    Profesional{" "}
+    <span className="font-bold text-gray-800">Software Engineer</span>, Ahli
+    membangun aplikasi web menggunakan
     <HighlightedTextIcon
       as="a"
       href="https://nodejs.org"
-      className="mx-2"
+      className="mx-1"
       icon={
         <svg
           width="30"
@@ -30,12 +30,12 @@ const Text = () => (
       }
     >
       NodeJS
-    </HighlightedTextIcon>
-    sebagai back-end server,
+    </HighlightedTextIcon>{" "}
+    dan
     <HighlightedTextIcon
       as="a"
       href="https://reactjs.org"
-      className="mx-2"
+      className="mx-1"
       icon={
         <svg
           width="30"
@@ -64,11 +64,11 @@ const Text = () => (
     >
       ReactJS
     </HighlightedTextIcon>
-    sebagai front-end web{","}
+    {", "}
     <HighlightedTextIcon
       as="a"
       href="https://reactnative.dev/"
-      className="mx-2"
+      className="mx-1"
       icon={
         <svg
           width="30"
@@ -101,31 +101,32 @@ const Text = () => (
     <HighlightedTextIcon
       as="a"
       href="https://flutter.dev/"
-      className="mx-2"
+      className="mx-1"
       icon={<Icon icon={flutterIcon} />}
     >
-      Flutter Mobile
+      Flutter
     </HighlightedTextIcon>{" "}
-    sebagai Hybird framework mobile app, dan
+    sebagai Framework mobile application, serta
     <HighlightedTextIcon
       as="a"
       href="https://www.electronjs.org/"
-      className="mx-2"
+      className="mx-1"
       icon={<Icon icon={electronIcon} />}
     >
       Electron
     </HighlightedTextIcon>
-    or
+    atau
     <HighlightedTextIcon
       as="a"
       href="https://flutter.dev/"
-      className="mx-2 md:my-1"
+      className="mx-1 md:my-1"
       icon={<Icon icon={flutterIcon} />}
     >
-      Flutter Desktop
+      Flutter
     </HighlightedTextIcon>{" "}
-    sebagai framework desktop app . Saya juga seorang mahasiswa aktif di
-    Universitas Muria Kudus.
+    untuk Cross-platform desktop app . Saya juga seorang freelancer aktif di
+    Upwork. Menerapkan best practices untuk meningkatkan kinerja dan user
+    experiences. Menikmati tantangan teknis dan terus belajar hal-hal baru.
   </>
 );
 

@@ -7,13 +7,13 @@ import electronIcon from "@iconify/icons-logos/electron";
 
 const Text = () => (
   <>
-    I’m currently working as a freelance{" "}
-    <span className="font-bold text-gray-800">Software developer</span>. I enjoy
-    building web application using
+    Professional{" "}
+    <span className="font-bold text-gray-800">Software Engineer</span>.
+    Proficient building web application using
     <HighlightedTextIcon
       as="a"
       href="https://nodejs.org"
-      className="mx-2 my-1 lg:my-0"
+      className="mx-1 md:mx-2 my-1 lg:my-0"
       icon={
         <svg
           width="30"
@@ -31,11 +31,11 @@ const Text = () => (
     >
       NodeJS
     </HighlightedTextIcon>
-    as back-end server technology{","}
+    and{" "}
     <HighlightedTextIcon
       as="a"
       href="https://reactjs.org"
-      className="mx-2"
+      className="mx-1 md:mx-2"
       icon={
         <svg
           width="30"
@@ -64,11 +64,11 @@ const Text = () => (
     >
       ReactJS
     </HighlightedTextIcon>
-    as front-end web technology,Hybird mobile application using
+    , Mobile Application using
     <HighlightedTextIcon
       as="a"
       href="https://reactnative.dev/"
-      className="mx-2 md:my-1"
+      className="mx-1 md:mx-2 md:my-1"
       icon={
         <svg
           width="30"
@@ -101,7 +101,7 @@ const Text = () => (
     <HighlightedTextIcon
       as="a"
       href="https://flutter.dev/"
-      className="mx-2"
+      className="mx-1 md:mx-2"
       icon={<Icon icon={flutterIcon} />}
     >
       Flutter Mobile
@@ -110,7 +110,7 @@ const Text = () => (
     <HighlightedTextIcon
       as="a"
       href="https://www.electronjs.org/"
-      className="mx-2"
+      className="mx-1 md:mx-2"
       icon={<Icon icon={electronIcon} />}
     >
       Electron
@@ -119,12 +119,14 @@ const Text = () => (
     <HighlightedTextIcon
       as="a"
       href="https://flutter.dev/"
-      className="mx-2 md:my-1"
+      className="mx-1 md:mx-2 md:my-1"
       icon={<Icon icon={flutterIcon} />}
     >
       Flutter Desktop
     </HighlightedTextIcon>
-    . I'm also an active student in University of Muria Kudus.
+    . I'm also active as freelancer in Upwork. Implement best practices to
+    enhance performance and user experiences. Enjoys technical challenges and
+    keep learning new things.
   </>
 );
 

@@ -27,7 +27,7 @@
   "scripts": {
     "watch:style": "postcss ./src/assets/css/styles.css -o ./src/assets/css/app.css -w",
     "build:style": "postcss ./src/assets/css/styles.css -o ./src/assets/css/app.css --env production",
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "dev": "concurrently \"yarn watch:style\" \"yarn start\"",
     "build": "yarn build:style && react-scripts build",
     "test": "react-scripts test",
@@ -59,9 +59,9 @@
     "@types/classnames": "^2.2.11",
     "autoprefixer": "^10.0.2",
     "concurrently": "^5.3.0",
-    "postcss": "^8.1.7",
-    "postcss-cli": "^8.3.0",
-    "postcss-import": "^13.0.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
     "tailwindcss": "^2.0.1"
   }
 }

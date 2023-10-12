@@ -54,9 +54,9 @@ const About = forwardRef<HTMLElement | undefined, AboutSectionProps>(
             delay={1}
           />
         </SectionTitle>
-        <div className="grid lg:grid-rows-1 gap-1 lg:grid-cols-3 h-auto">
+        <div className="grid lg:grid-rows-1 gap-1 lg:grid-cols-4 h-auto">
           <Animated.FromDirection
-            className="lg:col-span-2"
+            className="lg:col-span-3"
             from="left"
             animate={controls}
             custom={0}
